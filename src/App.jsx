@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Accordian from './Projects/Accordian/Accordian'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <Accordian />
     </>
   )
 }
