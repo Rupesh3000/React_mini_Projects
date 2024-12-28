@@ -20,11 +20,16 @@ function Accordian() {
                                     }}
                                     className="question  p-4 mb-3 text-2xl cursor-pointer  bg-orange-900 text-white rounded-md">
                                     <h1 className='inline-block text-2xl'>{dataItem.question}</h1>
+
+
+
                                     <div className='ans text-xl mt-3 px-3'>
                                         {selector === dataItem.id ?
                                             <div>{dataItem.answer}</div>
                                             : null}
                                     </div>
+
+                                    
                                 </div>
 
                             </>
