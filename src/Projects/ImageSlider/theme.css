@@ -1,0 +1,23 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000;
+  --button-bg: #000;
+  --button-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  --background: #000000;
+  --text-primary: #fff;
+  --button-bg: #fff;
+  --button-text: #000;
+}
+
+.wrapper {
+  background-color: var(--background);
+  transition: all 0.5s;
+}
+
+
+.wrapper .container .dark h1 {
+  color: var(--text-primary);
+}
