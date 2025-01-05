@@ -5,6 +5,7 @@ import ImageSlider from './Projects/ImageSlider/ImageSlider'
 import LoadMoreData from './Projects/LoadMoreData/LoadMoreData'
 import GitHubProfileFinder from './Projects/GitHubProfileFinder/GitHubProfileFinder'
 import SearchFun from './Projects/SearchFunctionality/SearchFun'
+import Weather from './Projects/Weather/WeatherApp'
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
 
       {/* <GitHubProfileFinder /> */}
 
-      <SearchFun />
+      {/* <SearchFun /> */}
+
+      <Weather />
     </>
   )
 }
