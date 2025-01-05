@@ -4,6 +4,7 @@ import ColorGenerator from './Projects/ColorGenerator/ColorGenerator'
 import ImageSlider from './Projects/ImageSlider/ImageSlider'
 import LoadMoreData from './Projects/LoadMoreData/LoadMoreData'
 import GitHubProfileFinder from './Projects/GitHubProfileFinder/GitHubProfileFinder'
+import SearchFun from './Projects/SearchFunctionality/SearchFun'
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
 
       {/* <LoadMoreData /> */}
 
-      <GitHubProfileFinder />
+      {/* <GitHubProfileFinder /> */}
+
+      <SearchFun />
     </>
   )
 }

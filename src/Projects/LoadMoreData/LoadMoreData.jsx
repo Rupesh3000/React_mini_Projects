@@ -20,7 +20,7 @@ export default function LoadMoreData() {
     //             if (isMounted) {
     //                 if (data && data.products && data.products.length ) {
 
-    //                     setProduct(data);
+    //                     setProduct(data.products);
     //                 } else {
     //                     // Handle no data or invalid data structure
     //                     console.log("No products or invalid data structure received");
