@@ -6,6 +6,7 @@ import LoadMoreData from './Projects/LoadMoreData/LoadMoreData'
 import GitHubProfileFinder from './Projects/GitHubProfileFinder/GitHubProfileFinder'
 import SearchFun from './Projects/SearchFunctionality/SearchFun'
 import Weather from './Projects/Weather/WeatherApp'
+import FoodApp from './Projects/FoodRecipe/FoodApp.jsx'
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
 
       {/* <SearchFun /> */}
 
-      <Weather />
+      {/* <Weather /> */}
+
+      <FoodApp />
     </>
   )
 }
