@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, RouterProvider, Routes, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import FoodNav from './Component/FoodNav'
 import FoodHome from './Pages/Home/FoodHome'
 import Favorites from './Pages/Favorites/Favorites'

@@ -3,15 +3,18 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
-import GlobleState from './Projects/FoodRecipe/FoodContext/FoodContext.jsx'
+import { Provider } from 'react-redux'
+import store from './Projects/ShoppingCart/Store/storeIn.js'
+// import GlobleState from './Projects/FoodRecipe/FoodContext/FoodContext.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <GlobleState>
+
+  <Provider store={store}>
+    <BrowserRouter>
       <StrictMode>
         <App />
       </StrictMode>
-    </GlobleState>
-  </BrowserRouter>
+    </BrowserRouter>
+  </Provider>
 )
